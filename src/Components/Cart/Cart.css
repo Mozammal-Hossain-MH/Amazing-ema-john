@@ -1,0 +1,24 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+.cart .cart-head {
+    text-align: center;
+    color: #1C2B35;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.cart .cart-body {
+    margin-top: 50px;
+    margin-left: 23px;
+}
+
+.cart .cart-body h6{
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0;
+}

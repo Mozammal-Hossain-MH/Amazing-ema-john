@@ -14,12 +14,3 @@
 .cart-container {
     background-color: rgba(255, 153, 0, 0.30);
 }
-
-.cart-container h5 {
-    text-align: center;
-    color: #1C2B35;
-    font-family: Lato;
-    font-size: 25px;
-    font-weight: 400;
-    margin-bottom: 0;
-}
