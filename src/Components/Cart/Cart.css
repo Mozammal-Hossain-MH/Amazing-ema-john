@@ -1,6 +1,6 @@
 .cart {
     position: sticky;
-    top: 0;
+    top: 80px;
 }
 
 .cart .cart-head {
@@ -31,6 +31,7 @@
 
 .cart .clear-cart button {
     margin-top: 55px;
+    margin-bottom: 260px;
     width: 232px;
     height: 48px;
     border: none;

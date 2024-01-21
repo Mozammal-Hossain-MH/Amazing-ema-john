@@ -1,18 +1,18 @@
 [
     {
         "id": 1,
-        "name": "Order",
-        "path": "/order"
+        "name": "Shop",
+        "path": "/"
     },
     {
         "id": 2,
-        "name": "Order Review",
-        "path": "/order-review"
+        "name": "Orders",
+        "path": "/orders"
     },
     {
         "id": 3,
-        "name": "Manage Inventory",
-        "path": "/manage-inventory"
+        "name": "Inventory",
+        "path": "/inventory"
     },
     {
         "id": 4,

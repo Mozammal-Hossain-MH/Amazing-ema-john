@@ -11,7 +11,7 @@ const Cart = ({ cart }) => {
 
     for (const product of cart) {
         total = total + product.price * product.quantity;
-        shipping = shipping + product.shipping * product.quantity;
+        shipping = shipping + product.shipping;
         quantity = quantity + product.quantity;
     }
     const tax = total * 7 / 100
