@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Order",
+        "path": "/order"
+    },
+    {
+        "id": 2,
+        "name": "Order Review",
+        "path": "/order-review"
+    },
+    {
+        "id": 3,
+        "name": "Manage Inventory",
+        "path": "/manage-inventory"
+    },
+    {
+        "id": 4,
+        "name": "Login",
+        "path": "/login"
+    }
+]

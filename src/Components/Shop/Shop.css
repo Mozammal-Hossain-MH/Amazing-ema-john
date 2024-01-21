@@ -1,3 +1,4 @@
+
 .shop-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -14,3 +15,4 @@
 .cart-container {
     background-color: rgba(255, 153, 0, 0.30);
 }
+

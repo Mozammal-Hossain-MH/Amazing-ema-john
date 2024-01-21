@@ -34,10 +34,10 @@
 
 .product .product-details .product-name {
     font-size: 21px;
+    margin: 20px 0;
 }
 
 .product .product-details .product-gap {
     margin-top: 45px;
     margin-bottom: 60px;
-    line-height: 5px;
 }
