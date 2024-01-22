@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Shop.css'
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
-import { addToDb, getShoppingCart } from '../../utilities/fakedb';
-import { useLoaderData } from 'react-router-dom';
+import { addToDb, deleteShoppingCart, getShoppingCart } from '../../utilities/fakedb';
+import { Link, useLoaderData, useNavigate } from 'react-router-dom';
 
 const Shop = () => {
 
@@ -50,6 +50,17 @@ const Shop = () => {
         addToDb(product.id)
     }
 
+    const handleClearCart = () => {
+        setCart([]);
+        deleteShoppingCart()
+    }
+
+    const navigate = useNavigate()
+
+    const handleReviewOrders = ( ) => {
+        navigate(`/orders`);
+    }
+
     return (
         <div className='shop-container'>
             <div className="mt-20 w-3/5 sm:w-auto sm:mx-10 m-auto grid sm:grid-cols-2 sm:gap-11 lg:grid-cols-3">
@@ -62,7 +73,15 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container hidden md:block">
-                <Cart cart={cart}></Cart>
+                <Cart 
+                cart={cart}
+                handleClearCart={handleClearCart}
+                >
+                    <div className='flex justify-center '>
+                       <button onClick={handleReviewOrders} className='mt-2 w-10/12 h-12 border-none rounded bg-orange-400 hover:bg-orange-500'>Review Orders</button>
+                    </div>
+                    
+                </Cart>
             </div>
         </div>
     );

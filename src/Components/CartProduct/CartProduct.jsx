@@ -10,7 +10,7 @@ const handleRemoveFromCart = props.handleRemoveFromCart;
             <img className='h-5/6 w-auto ml-2 rounded' src={img} />
             <div className='px-4 mr-5 grow'>
                 <p className='text-sm font-semibold'>{name}</p>
-                <p className='text-xs'>Price: <span className='text-orange-400 font-semibold'>${price}</span></p>
+                <p className='text-xs'>Price: <span className='text-orange-400 font-semibold'>${price * quantity}</span></p>
                 <p className='text-xs'>Quantity: <span className='text-orange-400 font-semibold'>{quantity}</span></p>
                 <p className='text-xs'>Shipping Charge: <span className='text-orange-400 font-semibold'>${shipping}</span></p>
             </div>

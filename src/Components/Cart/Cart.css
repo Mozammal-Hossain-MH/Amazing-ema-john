@@ -23,22 +23,3 @@
     font-weight: 400;
     margin: 0;
 }
-
-.cart .clear-cart {
-    display: flex;
-    justify-content: center;
-}
-
-.cart .clear-cart button {
-    margin-top: 55px;
-    margin-bottom: 260px;
-    width: 232px;
-    height: 48px;
-    border: none;
-    border-radius: 4px;
-    background: #FF3030;
-}
-
-.cart .clear-cart button:hover{
-    background-color: #494A54;
-}
